@@ -5,9 +5,9 @@ from bottle import run, route, view, static_file
 def home():
     return {}
 
-@route('/myths')
-@view('myths')
-def myths():
+@route('/problematic')
+@view('problematic')
+def problematic():
     return {}
 
 @route('/issues')
@@ -20,7 +20,7 @@ def issues():
 def solutions():
     return {}
 
-@route('/static/<filename>')
+@route('/static/<filename:path>')
 def server_static(filename):
     return static_file(filename, root='./static')
 

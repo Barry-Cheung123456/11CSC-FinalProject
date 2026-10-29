@@ -2,42 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Digital Wellbeing | Impacts & Solutions</title>
+    <title>Digital Wellbeing | Impacts & Actions</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
-    <header>
-        <h1>Global & Local Impacts & Solutions</h1>
-        <p>Exploring Regulatory Policies and Personal Strategies for Balance</p>
+    <header class="site-header">
+        <nav class="nav-links">
+            <a href="/">Home</a>
+            <a href="/problematic">Problematic use</a>
+            <a href="/issues">Wellbeing issues</a>
+            <a href="/solutions" class="active">Impacts & actions</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="/">Home / Profile</a>
-        <a href="/myths">Truth vs. Myths</a>
-        <a href="/issues">NZ Teen Issues</a>
-        <a href="/solutions" class="active">Impacts & Solutions</a>
-    </nav>
-
-    <main>
-        <div class="card">
-            <h2>Balancing Positive Potential with Digital Safeguards</h2>
-            <p>While digital networks present risks of isolation and anxiety, Pope Francis and modern educators emphasize that technology also offers extraordinary opportunities for global dialogue, education, and active citizenship. The key lies in regulation, mindful usage, and establishing healthy boundaries.</p>
-        </div>
-
-        <div class="card">
-            <h2>Proposed Solutions: Raising the Social Media Age</h2>
-            <p>A major current debate focuses on structural policy interventions, such as raising the mandatory minimum age for unsupervised social media access to 16 years old. Public polling and research highlight strong community backing:</p>
-            <ul>
-                <li><strong>Teen Support:</strong> 47% of New Zealand teenagers express support for stricter age limits to protect mental well-being.</li>
-                <li><strong>Caregiver Backing:</strong> 77% of parents and caregivers strongly support raising social media access thresholds to age 16.</li>
-            </ul>
-            <p>Additionally, individual strategies—such as device-free bedrooms, turning off non-essential notification badges, and prioritizing daily physical sports and face-to-face interaction—help restore personal balance.</p>
-
-            <div class="citation-box">
-                <strong>Sources Cited:</strong><br>
-                1. Netsafe NZ Digital Safety Guidelines.<br>
-                2. Mental Health Foundation of New Zealand - Navigating Online Spaces Safely.
+    <main class="container">
+        <div class="grid-full-page">
+            <div>
+                <div class="full-width-card">
+                    <h2>Impacts and What We Can Do</h2>
+                    <p>Addressing digital wellbeing requires both structural regulatory reform and personal habit changes to foster healthier relationships with technology.</p>
+                </div>
+                <div class="full-width-card">
+                    <h2>Policy Solutions: Raising the Social Media Age</h2>
+                    <p>Discussions around setting a minimum age of 16 for unsupervised social media access show strong public support:</p>
+                    <ul>
+                        <li><strong>Teen Support:</strong> 47% of New Zealand teenagers support stricter age thresholds.</li>
+                        <li><strong>Caregiver Backing:</strong> 77% of parents and caregivers advocate for age-restricted platform access.</li>
+                    </ul>
+                </div>
+                <div class="full-width-card">
+                    <h2>Actionable Personal Strategies</h2>
+                    <p>Teens and families can take proactive steps to reclaim their time and mental clarity:</p>
+                    <ul>
+                        <li>Establish device-free bedrooms one hour before sleep.</li>
+                        <li>Disable non-essential push notifications to reduce interruption frequency.</li>
+                        <li>Prioritize physical sports, outdoor recreation, and face-to-face social events.</li>
+                    </ul>
+                    <div class="citation-box">
+                        <strong>Sources Cited:</strong> Netsafe NZ Digital Safety Guidelines; Mental Health Foundation.
+                    </div>
+                </div>
             </div>
+
+            <aside class="visual-sidebar">
+                <img src="/static/images/screentime.png" alt="Smartphone Screen Time Illustration">
+                <p><strong>Figure 3:</strong> Digital wellness & smartphone habit management.</p>
+            </aside>
         </div>
     </main>
 
